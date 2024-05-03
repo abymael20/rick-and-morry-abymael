@@ -1,13 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
+import Episodes from './episodes.tsx'
+import Button from './button.tsx'
 import './index.css'
+
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App />}>
-      <Route path="dashboard" element={<Dashboard />} />
+    <Route>
+      <Route path='/' element= {<Button />}/>
+      <Route path="/App" element={<App />}/>
+      <Route path="/episodes" element={<Episodes />} />
     </Route>
   )
 );

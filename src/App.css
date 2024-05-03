@@ -1,9 +1,18 @@
+body {
+  background-image: url(https://ovicio.com.br/wp-content/uploads/2023/06/20230614-ovicio-rick-morty-season-7.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
 #root {
-  max-width: 1280px;
+  max-width: 2080px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  height: 100vh;
 }
+
 
 .logo {
   height: 6em;
@@ -38,5 +47,129 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #888;}
+
+.filtersepisodeos{
+  margin-top: 20px;
+}
+
+.episode{
+  margin-top: 8px;
+}
+
+.pagination
+
+{ margin-top: 20px;}
+
+.episodes{
+color: #1c3042;
+
+}
+
+#locaisButton {
+  font-size: 40px;
+  padding: 20px 20px;
+background-color: #FFE4E1;
+font-style: italic;
+margin-right: 10px;
+margin-top: 60px;
+
+}
+
+#episodiosButton{
+  font-size: 40px;
+  padding: 20px 20px;
+background-color: #FFE4E1;
+font-style: italic;
+margin-left: 10px;
+margin-top: 60px;
+}
+.episode-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.episode {
+  width: calc(15% - 30px);
+  padding: 10px;
+  border: 2px solid#7b68ee;
+  border-radius: 10px;
+  background-color: #d8d8ff; 
+  margin: 10px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+.Location {
+  color: #1e1b2d; 
+}
+
+.filterslocal {
+  margin-top: 20px;
+}
+
+.Local {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.LocationCard {
+  width: calc(15% - 30px);
+  padding: 15px;
+  border: 2px solid #7b68ee; 
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #d8d8ff; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LocationName strong,
+.LocationDimension strong,
+.LocationType strong {
+  font-weight: bold;
+  color: #ff7f50; 
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+h1,
+.filterslocal span {
+  background-color: #5f31b9; 
+  color: #32CD32; 
+  padding: 5px 5px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.filter-episodes span {
+  background-color: #5f31b9; 
+  color: #32CD32; 
+  padding: 5px 5px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.filter-episodes {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.episode-season strong,
+.episode-name strong,
+.episode-date strong {
+  color: #ff7f50; 
+}
+.Descricao{
+  margin-top: 40px;
+  background-color: #54e054; 
+  color: #5f31b9; 
+  padding: 5px 5px;
+  border-radius: 3px;
+  margin-bottom: 5px;
 }
